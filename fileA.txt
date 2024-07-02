@@ -1,0 +1,2 @@
+ivanov;Иванов Иван Иванович;2017-08-03 01:12:13;web
+petrov;Petrov;;mobile
