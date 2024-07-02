@@ -3,9 +3,11 @@ package study.stepup;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
+import study.stepup.log.LogTransformation;
 
 @Component
 @Order(1)
+@LogTransformation("fio")
 public class Convert1_fio implements ConverterAble {
     @Autowired
     Model model;

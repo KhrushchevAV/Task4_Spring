@@ -4,34 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a833c896-4e30-49de-b5a1-6a19504daccb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fileA.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fileB.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/stepup/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/stepup/Convert1_fio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/stepup/Convert2_app.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/stepup/Convert3_date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/stepup/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/stepup/ConverterAble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/stepup/DataString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/stepup/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/stepup/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/stepup/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/stepup/Writer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/stepup/db/Logins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/stepup/db/LoginsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/stepup/db/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/stepup/db/UsersRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/create.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Task4_SprintTest.java" afterDir="false" />
+    <list default="true" id="a833c896-4e30-49de-b5a1-6a19504daccb" name="Changes" comment="Задача 4. Первый рабочий вариант.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/study/stepup/log/LogTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/study/stepup/log/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/study/stepup/test/IntegrationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/study/stepup/test/ModuleTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/stepup/Convert1_fio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/stepup/Convert1_fio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/stepup/Convert2_app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/stepup/Convert2_app.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/stepup/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/stepup/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/stepup/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/stepup/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Task4_SprintTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -69,23 +55,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
+    "JUnit.ModuleTests.executor": "Run",
+    "JUnit.ModuleTests.testConvert1.executor": "Debug",
+    "JUnit.Task4_SprintTest.TestDB.executor": "Run",
+    "JUnit.Task4_SprintTest.executor": "Run",
+    "JUnit.Task4_SprintTest.testOk.executor": "Run",
     "Maven.Task4_Spring [clean].executor": "Run",
     "Maven.Task4_Spring [package].executor": "Run",
     "Maven.Task4_Spring [verify].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/av/Documents/study.stepup/Task4_Spring/src/test",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\av\Documents\study.stepup\Task4_Spring\src\test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\av\Documents\study.stepup\Task4_Spring\src\main\resources" />
       <recent name="C:\Users\av\Documents\study.stepup\Task4_Spring" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="study.stepup.Main" />
       <module name="Task4_Spring" />
@@ -99,9 +94,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntegrationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task4_Spring" />
+      <option name="PACKAGE_NAME" value="study.stepup.test" />
+      <option name="MAIN_CLASS_NAME" value="study.stepup.test.IntegrationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTests.TestDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task4_Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.stepup.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="study.stepup.test" />
+      <option name="MAIN_CLASS_NAME" value="study.stepup.test.IntegrationTests" />
+      <option name="METHOD_NAME" value="TestDB" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModuleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task4_Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.stepup.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="study.stepup.test" />
+      <option name="MAIN_CLASS_NAME" value="study.stepup.test.ModuleTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModuleTests.testConvert1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task4_Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.stepup.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="study.stepup.test" />
+      <option name="MAIN_CLASS_NAME" value="study.stepup.test.ModuleTests" />
+      <option name="METHOD_NAME" value="testConvert1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.IntegrationTests.TestDB" />
+        <item itemvalue="JUnit.ModuleTests" />
+        <item itemvalue="JUnit.ModuleTests.testConvert1" />
+        <item itemvalue="JUnit.IntegrationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -114,9 +169,41 @@
       <option name="presentableId" value="Default" />
       <updated>1719645196278</updated>
     </task>
+    <task id="LOCAL-00001" summary="Задача 4. Первый рабочий вариант.">
+      <option name="closed" value="true" />
+      <created>1719904565840</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719904565840</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Задача 4. Первый рабочий вариант." />
+    <option name="LAST_COMMIT_MESSAGE" value="Задача 4. Первый рабочий вариант." />
+  </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/study/stepup/log/Logger.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/study/stepup/log/Logger.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/study/stepup/log/Logger.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="sc.hasNextLine()" language="JAVA" />

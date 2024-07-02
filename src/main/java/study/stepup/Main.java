@@ -11,7 +11,7 @@ public class Main {
         // путь для сканирования файлов задан в командной строке
         if (args.length > 0) path = args[0];
 
-        ApplicationContext ctx= SpringApplication.run(Main.class);
+        ApplicationContext ctx= SpringApplication.run(Main.class, args);
 
         Controller controller = ctx.getBean(Controller.class);
         controller.execute(path);
